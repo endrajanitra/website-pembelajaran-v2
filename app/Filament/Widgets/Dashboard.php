@@ -42,6 +42,7 @@ class Dashboard extends StatsOverviewWidget
                 )
                 ->descriptionColor("success")
                 ->color("success"),
+                
             Stat::make("Total Kelas", Kelas::count())
                 ->description("Total kelas dalam satu bulan")  
                 ->descriptionIcon(Heroicon::ArrowUpLeft, IconPosition::Before)
